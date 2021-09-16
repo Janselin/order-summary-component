@@ -14,15 +14,18 @@ body {
    background-repeat: no-repeat;
     font-family: 'Red Hat Display', sans-serif;
     overflow: hidden;
+    width: 100vw;   
+    height: 100vh;
 }
 
 
 .container {
-    width: 100vw;    
+    width: 100%;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     /* overflow: hidden;       */
+    margin: 20px 0 20px 0;
 }
 
 .content {
@@ -60,41 +63,92 @@ p {
 }
 
 .plan {
-    display: flex;
-    width: 100%;
+      width: 100%;
     background-color: hsl(222, 68%, 95%);
-    border-radius: 8px;
-    align-items: center;
-    justify-content: center;
-
+    border-radius: 12px;
+   /* align-items: center;
+     padding: 2em 1em; */
+    /* justify-content: center; */
 }
+.planContainer {
+    padding: 0.3em;
+    /* margin: 0.8em; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.plan h2 {
+    margin-bottom: 0.3em;
+    display: inline-block;
+}
+
 
 .row img {
     float: left;
-   
+    padding: 0.8em;
   }
 
 
 h2 {
     font-size: 1em;
+    font-weight: 900;
 }
 .row {
-   width: 74%;
-  
+   width: 75%;
 }
+
 
 .row p {
     display: inline-block;
-
+    margin: 0;
 }
 
+.row2 a, .row2 a:visited {
+    color: hsl(245, 75%, 52%);
+}
 
+.plan a:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.payment{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+.payment ul {
+    padding: 0;
+}
 
 li {
-    list-style: none;
+     list-style: none;   
+       }
+
+.payment li a {
+   display: block;
+   margin: 1em 0;
+   padding: 1em;
+   text-decoration: none;
+   font-weight: 700;
+   text-align: center;
+   border-radius: 9px;
+   color:hsl(224, 23%, 55%);
+   font-size: 14px;
+   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+   
+  }
+
+.active a {
+    color: hsl(225, 100%, 98%) !important;
     background-color: hsl(245, 75%, 52%);
+    }
+.active a:hover {
+    opacity: 0.5;
+     color:  hsl(225, 100%, 98%);
 }
-
-
+.cancel a:hover {
+    color: hsl(223, 47%, 23%);
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }

@@ -11,8 +11,7 @@ TITULOS ::  hsl(223, 47%, 23%)
 body {
    background: hsl(225, 100%, 94%)
    url(./images/pattern-background-desktop.svg)
-   no-repeat;
-   
+   no-repeat;   
    font-family: 'Red Hat Display', sans-serif;
    overflow: hidden;   
 }
@@ -59,20 +58,24 @@ p {
     text-align: center;
     color:hsl(224, 23%, 55%);
     line-height: 22px;
-    font-size: 15px;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    font-size:16px;
+    
 }
 
 .plan {
-      width: 100%;
+    width: 100%;
     background-color: hsl(222, 68%, 95%);
     border-radius: 12px;
  }
 
 .planContainer {
-    padding: 0.5em 0.3em;   
+    /* padding: 0.05em 0.3em; */
     display: flex;
     align-items: center;
-   
+    margin-top: 1.5em;
 }
 .plan h2 {
     font-size: 1em;
@@ -81,24 +84,15 @@ p {
     display: inline-block;
 }
 
-
+.row {
+    width: 75%;
+ }
+ 
 .row img {
     float: left;
     padding: 0.8em;
   }
 
-
-.row {
-   width: 75%;
-}
-
-
-.row p {
-    display: inline-block;
-    margin: 0;
-    font-size:16px;
-    
-}
 
 .row2 a, .row2 a:visited {
     color: hsl(245, 75%, 52%);
@@ -121,8 +115,7 @@ p {
 
 li {
      list-style: none;   
-     
-       }
+           }
 
 .payment li a {
    display: block;

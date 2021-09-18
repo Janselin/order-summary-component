@@ -159,5 +159,8 @@ li {
 
 @media (max-width:375px) {
     .content{
-        width: 100%; }
+        width: 90%; }
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
 }

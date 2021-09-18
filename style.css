@@ -30,7 +30,7 @@ body {
 
 .content {
     background: hsl(225, 100%, 98%);
-    width: 29%;
+    width: 27%;
     border-radius: 17px;
  }
 
@@ -47,11 +47,11 @@ h1 {
     font-weight: 900;
     color: hsl(223, 47%, 23%);
     font-size: 1.6em;
-    margin: 0.30em 0;
+    margin: 0.6em 0;
 }
 
 .info {
-    padding: 1.5em 2.5em 0;
+    padding: 1.2em 2.5em 0;
 }
 
 p {

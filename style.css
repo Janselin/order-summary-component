@@ -6,8 +6,7 @@ body {
    no-repeat;   
    font-family: 'Red Hat Display', sans-serif;
    overflow: hidden;   
-   max-width: 1440px;
-   width: 100%;    
+  width: 100%;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -163,17 +162,30 @@ li {
 
 
 
-/* @media  (min-width:1000px) {
-    .container {width: 80%;} 
+
+
+
+@media screen and (max-width:480px) {
+
+    body {  overflow-y: scroll;}
+    
+    .content {
+        width: 80%; 
+    
+              }
+            }
+
+@media screen and (min-width:481px) and (max-width: 760px) {
+
+    body {  overflow-y: scroll;
+    }
 
     .content {
-        width: 100%; 
-        margin: auto;
-    }
-    body {
-        width: 100%;
-        background-image: url(./images/pattern-background-mobile.svg);
-    }
-    
-
-}  */
+        width: 55%; 
+                     }
+                    }
+/*    
+ @media screen and (min-width: 761px) and (max-width: 1440px) {
+.content {width: 30%;}
+} 
+  */
